@@ -15,7 +15,7 @@ resource "tfe_workspace" "this" {
   working_directory = "oidc-config"
 
   vcs_repo {
-    github_app_installation_id = var.github_app_installation_id
+    github_app_installation_id = data.tfe_github_app_installation.gha_installation.id
     identifier                 = "${data.tfe_github_app_installation.gha_installation.name}/${var.github_repo_name}"
   }
 }
