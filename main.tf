@@ -35,7 +35,7 @@ data "aws_iam_policy_document" "assume_role_tfe_oidc" {
 }
 
 resource "aws_iam_role" "tfe_oidc" {
-  name               = "tfc-oidc"
+  name               = "tfe-ds-oidc"
   assume_role_policy = data.aws_iam_policy_document.assume_role_tfe_oidc.json
 }
 
@@ -49,7 +49,7 @@ data "aws_iam_policy_document" "tfe_oidc" {
 }
 
 resource "aws_iam_policy" "tfe_oidc" {
-  name   = "tfc-oidc"
+  name   = "tfe-ds-oidc"
   policy = data.aws_iam_policy_document.tfe_oidc.json
 }
 
