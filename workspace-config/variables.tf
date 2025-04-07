@@ -29,3 +29,8 @@ variable "github_repo_name" {
   type        = string
   description = "The name of the GitHub repository"
 }
+
+variable "tfe_token" {
+  type        = string
+  description = "The token to use for TFE authentication"
+}
