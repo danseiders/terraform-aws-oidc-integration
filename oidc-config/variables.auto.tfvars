@@ -1,0 +1,1 @@
+export TF_CLOUD_ORGANIZATION="dan-seiders" && export TF_CLOUD_HOSTNAME="app.terraform.io" && export TF_CLOUD_PROJECT="demo" && export TF_WORKSPACE="oidc-demo"
