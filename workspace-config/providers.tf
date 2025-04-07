@@ -4,7 +4,7 @@ terraform {
 
   cloud {
     workspaces {
-      name    = "oidc-demo"
+      name    = "oidc-demo-base"
       project = "demo"
     }
   }
