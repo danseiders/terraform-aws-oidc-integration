@@ -3,7 +3,7 @@ data "tfe_project" "this" {
 }
 
 data "tfe_github_app_installation" "gha_installation" {
-  id = var.github_app_installation_id
+  installation_id = var.github_app_installation_id
 }
 
 
