@@ -1,5 +1,0 @@
-tfe_organization_name = "dan-seiders"
-tfe_project_name      = "demo"
-tfe_workspace_name    = "oidc-demo"
-aws_region            = "us-east-2"
-github_repo_name      = "terraform-aws-oidc-integration"
