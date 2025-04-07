@@ -1,5 +1,6 @@
 data "tfe_project" "this" {
-  name = var.tfe_project_name
+  organization = var.tfe_organization_name
+  name         = var.tfe_project_name
 }
 
 data "tfe_github_app_installation" "gha_installation" {
