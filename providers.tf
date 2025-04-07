@@ -8,14 +8,6 @@ terraform {
       source  = "hashicorp/aws"
       version = "~>5.94"
     }
-    hcp = {
-      source  = "hashicorp/hcp"
-      version = "~>0.104"
-    }
-    tfe = {
-      source  = "hashicorp/tfe"
-      version = "~>0.64"
-    }
   }
 }
 
