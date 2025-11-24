@@ -1,19 +1,17 @@
 variable "tfe_organization_name" {
   type        = string
   description = "The name of your Terraform Cloud organization"
-  default     = "your-organization-name"
 }
 
 variable "tfe_project_name" {
   type        = string
   description = "The project under which a workspace will be created"
-  default     = "your-project-name"
+  default     = "Default Project"
 }
 
 variable "tfe_workspace_name" {
   type        = string
   description = "The name of the workspace that you'd like to create and connect to AWS"
-  default     = "Default Project"
 }
 
 variable "tfe_hostname" {
